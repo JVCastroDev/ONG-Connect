@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
 import logo from "../assets/logo.svg";
-import close from "../assets/close-icon.svg";
 
 const Register = (props) => {
   return (
-    <section className="p-4 window radius">
-      <img className="float-end" src={close} />
+    <section className="p-4 window radius shadow">
+     <i className="bi bi-x float-end icon-window"></i>
       <header className="d-flex flex-column justify-content-center align-items-center">
         <img src={logo} />
         <p className="text-center fs-2 text-white mt-3">{props.title}</p>

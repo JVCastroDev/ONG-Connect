@@ -41,8 +41,13 @@ input {
   font-weight: 500;
 }
 
-.icon {
+.icon-login {
   color: var(--color-placeholder);
+}
+
+.icon-window {
+  font-size: 50px;
+  color:var(--color-white);
 }
 
 .radius {
