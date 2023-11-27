@@ -15,7 +15,7 @@
   --color-black: #000000;
   --color-placeholder: #7a7a7a;
   --color-bg: #F3F6F9;
-  --color-login-bg: background: linear-gradient(153deg, rgba(126, 175, 255, 0.57) 34.75%, rgba(243, 246, 249, 0.57) 84.54%);
+  --color-login-bg:linear-gradient(153deg, rgba(126, 175, 255, 0.57) 34.75%, rgba(243, 246, 249, 0.57) 84.54%);background: linear-gradient(#f3f6f9, #7eafff);
 }
 
 * {
@@ -43,8 +43,27 @@ input {
   font-weight: 500;
 }
 
+
 .radius {
   border-radius: 24px;
+}
+
+.wrapper {
+  width: 409px;
+  height: 562px;
+}
+
+.outer-wrapper {
+  height: 100vh;
+  background-color: linear-gradient(153deg, rgba(126, 175, 255, 0.57) 34.75%, rgba(243, 246, 249, 0.57) 84.54%);background: linear-gradient(#f3f6f9, #7eafff);
+}
+
+.outer-wrapper p {
+  color: var(--color-primary);
+}
+
+.login-btn {
+  background-color: var(--color-primary);
 }
 
 .profile {
