@@ -1,12 +1,10 @@
 import logoBlue from "../assets/logo-blue.svg";
-// import email from "../assets/email.svg";
-// import password from "../assets/padlock.svg";
 
 function Login() {
   return (
     <>
       <div className="d-flex justify-content-center align-items-center outer-wrapper ">
-        <section className="bg-white d-flex flex-column justify-content-evenly align-items-center container shadow-lg wrapper radius">
+        <section className="position-absolute top-50 start-50 translate-middle bg-white d-flex flex-column justify-content-evenly align-items-center container shadow-lg wrapper radius">
           <header className="d-flex flex-column justify-content-center align-items-center">
             <img src={logoBlue} />
             <p className="fw-semibold fs-3">LOG IN</p>
