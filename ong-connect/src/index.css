@@ -29,6 +29,14 @@ body {
   font-family: Outfit, sans-serif;
 }
 
+input {
+  border: none;
+  border-radius: 15px;
+ margin-top: 10px;
+ padding: 10px;
+
+}
+
 ::placeholder {
   color: var(--color-placeholder);
   font-size: 18px;
@@ -39,10 +47,6 @@ body {
   border-radius: 24px;
 }
 
-.radius-small {
-  border-radius: 15px;
-}
-
 .profile {
   border: 1px solid var(--color-white);
   background-color: var(--color-primary);
@@ -51,5 +55,5 @@ body {
 .window {
   background-color: var(--color-primary);
   width: 1029px;
-  height: 441px;
+  height: auto;
 }
