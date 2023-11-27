@@ -1,6 +1,6 @@
 import logoBlue from "../assets/logo-blue.svg";
-import email from "../assets/email.svg";
-import password from "../assets/padlock.svg";
+// import email from "../assets/email.svg";
+// import password from "../assets/padlock.svg";
 
 function Login() {
   return (
@@ -14,8 +14,8 @@ function Login() {
 
           <form>
             <div className="mb-2">
-              <span className="position-absolute mt-1 mx-2">
-                <img src={email} />
+              <span className="position-absolute mt-2 mx-2">
+              <i className="bi bi-person icon"></i>
               </span>
               <input
                 type="email"
@@ -24,8 +24,8 @@ function Login() {
               />
             </div>
             <div className="mb-2">
-              <span className="position-absolute mt-1 mx-2">
-                <img src={password} />
+              <span className="position-absolute mt-2 mx-2">
+              <i className="bi bi-lock icon"></i>
               </span>
               <input
                 type="password"
