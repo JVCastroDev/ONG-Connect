@@ -15,7 +15,7 @@ function Login() {
           <form>
             <div className="mb-2">
               <span className="position-absolute mt-2 mx-2">
-              <i className="bi bi-person icon"></i>
+              <i className="bi bi-person icon-login"></i>
               </span>
               <input
                 type="email"
@@ -25,7 +25,7 @@ function Login() {
             </div>
             <div className="mb-2">
               <span className="position-absolute mt-2 mx-2">
-              <i className="bi bi-lock icon"></i>
+              <i className="bi bi-lock icon-login"></i>
               </span>
               <input
                 type="password"
