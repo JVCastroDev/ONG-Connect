@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Window from './components/window'
+import Register from './pages/Register'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <>
-      <Window title="Faça sua consulta" />
+      <Register title="Registro" />
     </>
   </React.StrictMode>,
 )
