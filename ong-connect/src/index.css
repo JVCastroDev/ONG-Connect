@@ -61,6 +61,7 @@ input {
 
 .outer-wrapper {
   min-height: 100vh;
+  min-width: 100vw;
   background-color: linear-gradient(
     153deg,
     rgba(126, 175, 255, 0.57) 34.75%,
