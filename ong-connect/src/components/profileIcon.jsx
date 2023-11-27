@@ -1,10 +1,10 @@
-import profile from "../assets/profile-icon.svg";
+// import profile from "../assets/profile-icon.svg";
 
 function ProfileIcon() {
   return (
     <div className="d-flex">
-      <span className="p-3 rounded-circle border-secundary profile">
-        <img src={profile} />
+      <span className="px-4 py-3 rounded-circle border-secundary profile">
+      <i className="bi bi-person icon-window "></i>
       </span>
     </div>
   );
